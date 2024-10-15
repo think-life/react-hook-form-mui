@@ -7,19 +7,18 @@ import {
   useController,
   UseControllerProps,
 } from 'react-hook-form'
-import {
-  Autocomplete,
-  AutocompleteChangeDetails,
-  AutocompleteChangeReason,
+import type {
   AutocompleteFreeSoloValueMapping,
-  AutocompleteProps,
+  AutocompleteChangeDetails,
   AutocompleteValue,
-  Checkbox,
-  ChipTypeMap,
-  TextField,
-  TextFieldProps,
-  useForkRef,
-} from '@mui/material'
+  AutocompleteChangeReason,
+} from '@mui/material/useAutocomplete'
+import useForkRef from '@mui/material/utils/useForkRef'
+import Autocomplete, {AutocompleteProps} from '@mui/material/Autocomplete'
+import type {ChipTypeMap} from '@mui/material/Chip'
+import type {TextFieldProps} from '@mui/material/TextField'
+import Checkbox from '@mui/material/Checkbox'
+import TextField from '@mui/material/TextField'
 import CircularProgress from '@mui/material/CircularProgress'
 import {useFormError} from './FormErrorProvider'
 import {

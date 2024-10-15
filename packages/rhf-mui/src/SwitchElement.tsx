@@ -5,13 +5,11 @@ import {
   PathValue,
   useController,
 } from 'react-hook-form'
-import {
-  FormControlLabel,
+import FormControlLabel, {
   FormControlLabelProps,
-  Switch,
-  SwitchProps,
-  useForkRef,
-} from '@mui/material'
+} from '@mui/material/FormControlLabel'
+import Switch, {SwitchProps} from '@mui/material/Switch'
+import useForkRef from '@mui/material/utils/useForkRef'
 import {ChangeEvent, forwardRef, Ref, RefAttributes} from 'react'
 import {useTransform} from './useTransform'
 

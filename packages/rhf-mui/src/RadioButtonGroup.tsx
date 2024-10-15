@@ -8,18 +8,15 @@ import {
   useController,
   UseControllerProps,
 } from 'react-hook-form'
-import {
-  FormControl,
-  FormControlLabel,
+import FormControl from '@mui/material/FormControl'
+import FormLabel, {FormLabelProps} from '@mui/material/FormLabel'
+import Radio from '@mui/material/Radio'
+import RadioGroup, {RadioGroupProps} from '@mui/material/RadioGroup'
+import FormControlLabel, {
   FormControlLabelProps,
-  FormHelperText,
-  FormLabel,
-  FormLabelProps,
-  Radio,
-  RadioGroup,
-  RadioGroupProps,
-  useTheme,
-} from '@mui/material'
+} from '@mui/material/FormControlLabel'
+import FormHelperText from '@mui/material/FormHelperText'
+import {useTheme} from '@mui/material/styles'
 import {useFormError} from './FormErrorProvider'
 import {useTransform} from './useTransform'
 

@@ -1,9 +1,6 @@
-import {
-  TextareaAutosize,
-  TextField,
-  TextFieldProps,
-  useForkRef,
-} from '@mui/material'
+import TextField, {TextFieldProps} from '@mui/material/TextField'
+import TextareaAutosize from '@mui/material/TextareaAutosize'
+import useForkRef from '@mui/material/utils/useForkRef'
 import {
   Control,
   FieldError,

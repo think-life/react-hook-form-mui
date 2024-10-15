@@ -7,7 +7,8 @@ import {
   useState,
 } from 'react'
 import TextFieldElement, {TextFieldElementProps} from './TextFieldElement'
-import {IconButton, IconButtonProps, InputAdornment} from '@mui/material'
+import IconButton, {IconButtonProps} from '@mui/material/IconButton'
+import InputAdornment from '@mui/material/InputAdornment'
 import Visibility from '@mui/icons-material/Visibility'
 import VisibilityOff from '@mui/icons-material/VisibilityOff'
 import {FieldPath, FieldValues} from 'react-hook-form'

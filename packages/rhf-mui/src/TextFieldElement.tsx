@@ -1,4 +1,5 @@
-import {TextField, TextFieldProps, useForkRef} from '@mui/material'
+import TextField, {TextFieldProps} from '@mui/material/TextField'
+import useForkRef from '@mui/material/utils/useForkRef'
 import {
   Control,
   FieldError,

@@ -7,14 +7,10 @@ import {
   useController,
   UseControllerProps,
 } from 'react-hook-form'
-import {
-  FormControl,
-  FormControlProps,
-  FormHelperText,
-  FormLabel,
-  Slider,
-  SliderProps,
-} from '@mui/material'
+import FormControl, {FormControlProps} from '@mui/material/FormControl'
+import FormHelperText from '@mui/material/FormHelperText'
+import FormLabel from '@mui/material/FormLabel'
+import Slider, {SliderProps} from '@mui/material/Slider'
 import {useFormError} from './FormErrorProvider'
 import {forwardRef, ReactNode, Ref, RefAttributes} from 'react'
 import {useTransform} from './useTransform'

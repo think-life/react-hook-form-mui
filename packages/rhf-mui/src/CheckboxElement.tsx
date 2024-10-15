@@ -7,16 +7,14 @@ import {
   useController,
   UseControllerProps,
 } from 'react-hook-form'
-import {
-  Checkbox,
-  CheckboxProps,
-  FormControl,
-  FormControlLabel,
+import Checkbox, {CheckboxProps} from '@mui/material/Checkbox'
+import FormControl from '@mui/material/FormControl'
+import FormGroup from '@mui/material/FormGroup'
+import FormHelperText from '@mui/material/FormHelperText'
+import FormControlLabel, {
   FormControlLabelProps,
-  FormGroup,
-  FormHelperText,
-  useForkRef,
-} from '@mui/material'
+} from '@mui/material/FormControlLabel'
+import useForkRef from '@mui/material/utils/useForkRef'
 import {useFormError} from './FormErrorProvider'
 import {ChangeEvent, forwardRef, ReactNode, Ref, RefAttributes} from 'react'
 import {useTransform} from './useTransform'

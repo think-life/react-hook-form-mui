@@ -1,14 +1,12 @@
-import {
-  Checkbox,
-  CheckboxProps,
-  FormControl,
-  FormControlLabel,
+import Checkbox, {CheckboxProps} from '@mui/material/Checkbox'
+import FormControl from '@mui/material/FormControl'
+import FormGroup from '@mui/material/FormGroup'
+import FormHelperText from '@mui/material/FormHelperText'
+import FormLabel from '@mui/material/FormLabel'
+import FormControlLabel, {
   FormControlLabelProps,
-  FormGroup,
-  FormHelperText,
-  FormLabel,
-  useTheme,
-} from '@mui/material'
+} from '@mui/material/FormControlLabel'
+import {useTheme} from '@mui/material/styles'
 import {
   Control,
   FieldError,

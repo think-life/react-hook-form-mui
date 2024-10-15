@@ -1,5 +1,7 @@
 import {ChangeEvent, forwardRef, ReactNode, Ref, RefAttributes} from 'react'
-import {MenuItem, TextField, TextFieldProps, useForkRef} from '@mui/material'
+import MenuItem from '@mui/material/MenuItem'
+import TextField, {TextFieldProps} from '@mui/material/TextField'
+import useForkRef from '@mui/material/utils/useForkRef'
 import {
   Control,
   FieldError,
